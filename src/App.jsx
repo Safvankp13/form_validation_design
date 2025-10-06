@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ToastContainer, toast, Bounce } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
-import "./app.css";
+import "./App.css";
 
 function App() {
   const [isLogin, setIsLogin] = useState(true);
